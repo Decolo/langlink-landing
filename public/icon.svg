@@ -1,0 +1,8 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Rounded background -->
+    <rect x="8" y="12" width="112" height="112" rx="20" ry="20" fill="#2DD4BF"/>
+    
+    <!-- Lowercase 't' character with red fill -->
+    <path d="M52 32 L64 32 L64 48 L80 48 L80 60 L64 60 L64 88 C64 92 66 94 70 94 L78 94 L78 106 L68 106 C58 106 52 100 52 90 L52 60 L42 60 L42 48 L52 48 Z" 
+          fill="#EF4444"/>
+</svg>
