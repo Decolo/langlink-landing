@@ -428,7 +428,7 @@ export default function LandingPage() {
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button> */}
               <strong>If any issue, please contact me with</strong>
-              <a href="mailto:caicheng.fe.dev@gmail.com">
+              <a href="mailto:colo.cai.2024@gmail.com">
                 <Button
                   size="lg"
                   variant="outline"
