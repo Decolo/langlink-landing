@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import {
   Card,
-  CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
@@ -9,13 +8,10 @@ import {
 import { Badge } from "@/components/ui/badge";
 import {
   Check,
-  Star,
   Zap,
   Shield,
   Users,
   BarChart3,
-  ArrowRight,
-  Menu,
   Facebook,
   Twitter,
   Linkedin,
