@@ -421,7 +421,28 @@ export default function LandingPage() {
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
               Ready to learn language with LangLink?
             </h2>
-            <p className="text-xl text-blue-100">Download the app below.</p>
+            <div className="text-xl text-blue-100 mt-4">
+              <h3 className="font-semibold">
+                How to install the Chrome extension:
+              </h3>
+              <ol className="list-decimal list-inside ml-4">
+                <li>
+                  Download the zip file from the
+                  <a
+                    href="https://qflaygfbholkjufwxipm.supabase.co/storage/v1/object/sign/files/langlink.zip?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9kMWQwZDMzZC1hZjM3LTQwNDYtYjFhNS1iOGFlYTRmYjVkODAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmaWxlcy9sYW5nbGluay56aXAiLCJpYXQiOjE3NDk1NjgzMjMsImV4cCI6MjA2NDkyODMyM30.vDcfJoTvsRE2UADfsSfbL24ekfom8EcSUtqsc2iXV80"
+                    className="underline text-white hover:text-blue-200"
+                  >
+                    {" "}
+                    link
+                  </a>
+                  . .
+                </li>
+                <li>Unzip the downloaded file.</li>
+                <li>Open Chrome and navigate to `chrome://extensions/`.</li>
+                <li>{`Enable "Developer mode" in the top right corner.`}</li>
+                <li>{`Click "Load unpacked" and select the unzipped extension folder.`}</li>
+              </ol>
+            </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               {/* <Button size="lg" variant="secondary" className="text-lg px-8">
                 Start Free Trial
@@ -432,7 +453,7 @@ export default function LandingPage() {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="text-lg px-8 border-white text-white hover:bg-white hover:text-blue-600"
+                  className="text-lg px-8 border-white hover:bg-white text-blue-600"
                 >
                   Email
                 </Button>
